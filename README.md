@@ -1,11 +1,15 @@
-# Second Assignment for the course "Advanced and Robot Programming" - UniGe
-### Developed by  [@Miryru](https://github.com/Miryru), [@alemuraa](https://github.com/alemuraa), [@Ivanterry00](https://github.com/Ivanterry00)
-Assignment given by the professor Renato Zaccaria for the course "Advanced and Robot Programming" - Robotics Engineering, at the University of Genova.
+# Advanced and Robot Programming: Second Assignment
 
-The project provides you with a base infrastructure for the implementation of the simulated vision system through shared memory, according to the requirements specified in the PDF file of the assignment.
+## Overview
 
-### ```Read the [info.txt] to know the info about the project.```
------
+The second assignment for the 'Advanced and Robot Programming' class involves creating an interactive simulator for a simplified vision system that tracks an object in a 2-D plane.
+
+### Contributors
+
+- Miriam Anna Ruggero (4881702)
+- Alessio Mura (4861320)
+- Ivan Terrile (4851947)
+
 # Simulator Behavior
 
 ## Overview
@@ -25,6 +29,30 @@ The simulator comprises two processes designed to model a camera system and feat
 - **Output**: Displays the trajectory of the image's center in a second 80x30 ncurses window.
 
 This setup provides an interactive simulation of image capture and feature tracking, complete with real-time controls and debugging capabilities.
+
+### Repository Structure
+
+- **`src/`**: Contains the source code for all processes.
+- **`include/`**: Contains data structures and methods used with the ncurses framework to build the two graphical user interfaces (GUIs).
+
+### Additional Directories
+
+After compiling the program, the following directories will be created:
+
+- **`bin/`**: Contains executable files.
+- **`out/`**: Stores .bmp images captured by Process A.
+
+### Compilation and Execution
+
+To compile the program, run:
+
+```bash
+$ bash ./compile.sh
+```
+After compilation, start the program with:
+```bash
+$ bash ./run.sh
+```
 
 ## Library installation and usage guide 
 To execute the program you need to install the *libbitmap* library. This library is used to read and write bitmap images. It is a shared library, which means that it is not linked to the executable at compile time, but rather at runtime. This allows the library to be updated without having to recompile the programs which use it.
