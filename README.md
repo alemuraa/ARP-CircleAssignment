@@ -11,9 +11,6 @@ The second assignment for the 'Advanced and Robot Programming' class involves cr
 - Ivan Terrile (4851947)
 
 # Simulator Behavior
-
-## Overview
-
 The simulator comprises two processes designed to model a camera system and feature extraction:
 
 ### Process A: Camera Simulation
@@ -30,7 +27,7 @@ The simulator comprises two processes designed to model a camera system and feat
 
 This setup provides an interactive simulation of image capture and feature tracking, complete with real-time controls and debugging capabilities.
 
-### Repository Structure
+# Repository Structure
 
 - **`src/`**: Contains the source code for all processes.
 - **`include/`**: Contains data structures and methods used with the ncurses framework to build the two graphical user interfaces (GUIs).
