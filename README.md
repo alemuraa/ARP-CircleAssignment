@@ -1,7 +1,4 @@
 # Advanced and Robot Programming: Second Assignment
-
-## Overview
-
 The second assignment for the 'Advanced and Robot Programming' class involves creating an interactive simulator for a simplified vision system that tracks an object in a 2-D plane.
 
 ### Contributors
